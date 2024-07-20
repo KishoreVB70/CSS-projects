@@ -30,3 +30,8 @@ body {
 
   padding: 2em;
 }
+
+.intro-content {
+  margin: 0 auto;
+  width: 50%;
+}
