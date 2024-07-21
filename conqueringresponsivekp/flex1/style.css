@@ -36,6 +36,10 @@ button:hover {
     color: white;
 }
 
+h1 {
+    font-size: 1.6rem;
+}
+
 @media only screen and (min-width: 600px) {
     h1 {
       font-size: 3rem;
@@ -46,4 +50,16 @@ button:hover {
     button {
         font-size: 1.15rem;
     }
+}
+
+.flecs {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.outer-flecstwo{
+    background-color: #136C72;
+    color: white;
 }
