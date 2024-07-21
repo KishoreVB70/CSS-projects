@@ -24,9 +24,6 @@ body {
 }
 
 .container {
-  width: 80%;
-  max-width: 750px;
-  margin: 0 auto;
   background: #23424a;
   color: white;
   padding: 50px 0;
@@ -34,4 +31,21 @@ body {
 
 .intro-content {
   width: 50%;
+  margin: 0 auto;
+  max-width: 750px;
 }
+
+.nested-container {
+  max-width: 500px;
+
+}
+
+
+.container2 {
+  width: 50%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+
