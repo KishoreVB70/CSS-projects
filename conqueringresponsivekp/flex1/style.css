@@ -1,0 +1,49 @@
+*, *::after *::before{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    color: white;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: #23424A;
+}
+
+.inner-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 600px;
+}
+
+button {
+    background-color: #38CFD9;
+    border-radius: 5rem;
+    padding: 0.8em 2em;
+    border: 0;
+    transition: background-color .5s  ease-in-out, color .3s ease-in-out .1s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 1.15rem;
+    }
+}
