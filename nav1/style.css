@@ -9,15 +9,21 @@ body {
 
 .navbar {
     background-color: #136C72;
-    padding: 2em 0;
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    padding: 1em 0;
+
 }
 
 .navlist {
     display: flex;
     gap: 2em;
 
-    width: 85%;
-    margin: 0 auto;
     padding: 0;
 
     color: white;
