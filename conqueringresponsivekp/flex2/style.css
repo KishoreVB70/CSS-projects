@@ -13,11 +13,6 @@ body {
     background-color: #23424A;
 }
 
-.inner-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .content {
     max-width: 600px;
 }
@@ -38,12 +33,12 @@ button:hover {
 
 h1 {
     font-size: 1.6rem;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 @media only screen and (min-width: 600px) {
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     p {
         font-size: 1.5rem;
@@ -51,15 +46,18 @@ h1 {
     button {
         font-size: 1.15rem;
     }
+    .row {
+        width: 80%;
+    }
 }
 
 .row {
     display: flex;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     gap: 1rem;
-    text-align: center;
     justify-content: space-between;
+    margin-top: 2em;
 }
 
 .colone {
@@ -68,5 +66,10 @@ h1 {
 
 .coltwo {
     width: 33%;
+    background-color: #136C72;
+    color: white;
+    padding: 1em;
+    text-align: center;
+
 
 }
