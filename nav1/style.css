@@ -9,6 +9,7 @@ body {
 
 .navbar {
     background-color: #136C72;
+    align-items: center;
 }
 
 .navcontainer {
@@ -19,6 +20,12 @@ body {
     padding: 2em 0;
 
 }
+
+.img-container {
+    display: flex;
+    align-items: center;
+}
+
 
 .navlist {
     display: flex;
