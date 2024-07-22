@@ -16,15 +16,16 @@ body {
     justify-content: space-between;
     width: 85%;
     margin: 0 auto;
-    padding: 1em 0;
+    padding: 2em 0;
 
 }
 
 .navlist {
     display: flex;
-    gap: 2em;
+    gap: 0.5em;
 
     padding: 0;
+    margin:0;
 
     color: white;
     list-style: none;
@@ -88,6 +89,10 @@ h1 {
     }
     .row {
         width: 80%;
+    }
+    .navlist {
+        gap: 2em;
+        font-size: 1.5rem;
     }
 }
 
