@@ -4,6 +4,39 @@
 
 body {
     margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #136C72;
+    padding: 2em 0;
+}
+
+.navlist {
+    display: flex;
+    gap: 2em;
+
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+
+    color: white;
+    list-style: none;
+}
+
+.navitem {
+    padding: 0.5em;
+    transition: background-color 0.4s ease-in-out, color 0.3s;
+}
+
+.navitem:hover {
+    color: #136C72;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .container {
@@ -59,7 +92,6 @@ img {
     display: flex;
     width: 85%;
     margin: 0 auto;
-    gap: 1rem;
     justify-content: space-between;
     margin-top: 2em;
 }
@@ -75,6 +107,7 @@ img {
     padding: 1em;
     text-align: center;
 }
+
 .img-container {
     width: 33%;
 }
