@@ -38,12 +38,12 @@ button:hover {
 
 h1 {
     font-size: 1.6rem;
+    margin-bottom: 0;
 }
 
 @media only screen and (min-width: 600px) {
     h1 {
       font-size: 3rem;
-      margin-bottom: 0;
     }
     p {
         font-size: 1.5rem;
@@ -53,25 +53,20 @@ h1 {
     }
 }
 
-.flecs {
+.row {
     display: flex;
     width: 80%;
     margin: 0 auto;
     gap: 1rem;
+    text-align: center;
+    justify-content: space-between;
 }
 
-.brown-heading {
-    color: #87629A;
+.colone {
+    width: 60%;
 }
 
-.outer-flecstwo{
-    background-color: #136C72;
-    color: white;
-}
+.coltwo {
+    width: 33%;
 
-.column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-
