@@ -15,31 +15,41 @@ body {
 .navcontainer {
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding: 2em 0;
+    gap: 0.2em;
 
 }
 
 .img-container {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
+.logo-container {
+    width: 10%;
+}
 
 .navlist {
     display: flex;
-    gap: 0.5em;
+    gap: 0.2em;
+    align-items: center;
 
     padding: 0;
     margin:0;
 
     color: white;
     list-style: none;
+    border: 2px solid red;
+}
+
+.navlist > img {
+    min-width: 25px;
 }
 
 .navitem {
-    padding: 0.5em;
+    padding: 0;
     transition: background-color 0.4s ease-in-out, color 0.3s;
 }
 
@@ -47,6 +57,10 @@ body {
     color: #136C72;
     background-color: white;
     cursor: pointer;
+}
+
+.navlistend {
+    width: 40%;
 }
 
 a {
@@ -95,11 +109,23 @@ h1 {
         font-size: 1.15rem;
     }
     .row {
-        width: 80%;
+        width: 85%;
+    }
+    .navcontainer {
+    }
+    .navlistcenter {
+        flex-grow: 1;
+        justify-content: center;
     }
     .navlist {
-        gap: 2em;
+        gap: 1em;
         font-size: 1.5rem;
+    }
+    .navitem {
+        padding: 0.5em;
+    }
+    .navlist > img{
+        max-width: 60px;
     }
 }
 
