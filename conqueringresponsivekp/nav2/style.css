@@ -128,10 +128,6 @@ header {
     position: relative;
 } 
 
-.nav_list {
-    text-align: center;
-}
-
 .nav__item {
     margin: 1em 0;
 }
@@ -157,6 +153,47 @@ header {
 
 .logo {
     height: 30px;
+}
+
+@media (min-width: 800px) {
+
+    /*Common*/
+    .row {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    /*Nav*/
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav {
+        visibility: visible;
+        display: flex;
+        height: auto;
+    }
+
+    /*Hero*/
+    .hero__text {
+        width: 62%;
+    }
+    
+    .hero__img {
+        width: 32%;
+        align-self: flex-start;
+        margin: 0;
+    }
+    
+    .primary-content {
+        width: 62%;
+    }
+
+    .sidebar {
+        width: 32%;
+    }
+    
 }
 
 
@@ -206,43 +243,3 @@ header {
 
 
 
-@media (min-width: 800px) {
-
-    /*Common*/
-    .row {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    /*Nav*/
-    .nav-toggle {
-        display: none;
-    }
-
-    .nav {
-        visibility: visible;
-        display: flex;
-        height: auto;
-    }
-
-    /*Hero*/
-    .hero__text {
-        width: 62%;
-    }
-    
-    .hero__img {
-        width: 32%;
-        align-self: flex-start;
-        margin: 0;
-    }
-    
-    .primary-content {
-        width: 62%;
-    }
-
-    .sidebar {
-        width: 32%;
-    }
-    
-}
