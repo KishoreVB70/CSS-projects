@@ -74,9 +74,8 @@ header {
     width: 3em;
     height: 3em;
     padding: 0em;
-    border-radius: 50%;
-    background: #072A2D;
     color: white;
+    background-color: transparent;
     transition: opacity 250ms ease;
     
     position: absolute;
