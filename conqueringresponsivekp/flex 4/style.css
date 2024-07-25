@@ -12,9 +12,15 @@ p, h1 {
     margin: 0;
 }
 
-p {
-    font-size: 0.9rem;
+/* --------------------------- Layouts ------------------------------------------ */
+
+/* Commons */
+.layout {
+    width: 90%;
+    margin: 0 auto;
 }
+
+/* Main */
 
 .container {
     color: white;
@@ -29,27 +35,10 @@ p {
     align-items: center;
 }
 
-.layout {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.column > h1 {
-    color: #824936;
-    font-size: 1.9rem;
-    text-align: center;
-    max-width: 700px;
-}
+/* Center */
 
 .center {
     padding: 4em 0;
-}
-
-.center > h1 {
-    color: #824936;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 1em;
 }
 
 .row {
@@ -58,6 +47,8 @@ p {
     margin-top: 1em;
     gap: 1em;
 }
+
+/*-------- Picture Section --------- */
 
 .pic-sec {
     color: white;
@@ -68,10 +59,18 @@ p {
     background-color: black;
 }
 
+.pic-sec2 {
+    background-color: #824936;
+}
+
 .pic-row {
     display: flex;
     margin: 0 auto;
     gap: 1em;
+}
+
+.pic-child {
+    width: 100%;
 }
 
 .pic-col {
@@ -80,17 +79,8 @@ p {
     justify-content: center;
 }
 
-.pic-col > h1 {
-    color: #F3EED9;
-    margin-bottom: 0.3em;
-}
-
-.pic-child {
-    width: 100%;
-}
-
-.pic-sec2 {
-    background-color: #824936;
+.img-container {
+    display: flex;
 }
 
 img {
@@ -99,10 +89,35 @@ img {
     align-self: center;
 }
 
-.img-container {
-    display: flex;
+/* --------------------Typography ---------------------------- */
+
+p {
+    font-size: 0.9rem;
 }
 
+h1 {
+    font-size: 1.5rem;
+}
+
+.column > h1 {
+    color: #824936;
+    font-size: 1.9rem;
+    text-align: center;
+    max-width: 700px;
+}
+
+.center > h1 {
+    color: #824936;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.pic-col > h1 {
+    color: #F3EED9;
+    margin-bottom: 0.3em;
+}
+
+/* -------------------- Queries ------------------------*/
 @media only screen and (min-width: 600px) {
     h1 {
         font-size: 2.5rem;
@@ -110,13 +125,9 @@ img {
     .column > h1 {
         font-size: 4rem;
     }
-    .center > h1 {
-        font-size: 2.5rem;
-    }
 
     p {
         font-size: 1.2rem;
     }
     
 }
-/*---------------------------------------------------------- */
