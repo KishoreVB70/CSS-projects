@@ -8,7 +8,7 @@
    inside the existing media query
 
 */
-
+/*---------------Basics--------------------*/
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -23,30 +23,16 @@ img {
     max-width: 100%;
 }
 
-h1 {
-    font-size: 3rem;
-    margin-top: 0;
+ul {
+    list-style: none;
 }
 
-.section-title {
-    color: #87629A;
-}
-
-.btn {
-    display: inline-block;
+a {
     text-decoration: none;
-    text-transform: uppercase; 
-    color: #23424A;
-    font-weight: 900;
-    background-color: #38CFD9;
-    padding: .75em 2em;
-    border-radius: 100px;
+    color: white;  
 }
 
-.btn:hover,
-.btn:focus {
-    opacity: .75; 
-}
+/*-----------Common-------------------------*/
 
 .container {
     width: 80%;
@@ -56,6 +42,19 @@ h1 {
     position: relative;
 }
 
+/*-------------Typography-----------------*/
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+.section-title {
+    color: #87629A;
+}
+
+
+
+/*-----------Navigation-------------------*/
 header {
     background: #136c72;
     padding: 1em 0;
@@ -65,8 +64,6 @@ header {
 .nav {
     width: 100%;
 }
-
-
 
 .nav-toggle {
     cursor: pointer;
@@ -131,11 +128,39 @@ header {
     position: relative;
 } 
 
+.nav_list {
+    text-align: center;
+}
+
+.nav__item {
+    margin: 1em 0;
+}
+
+.nav__list--secondary {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+
+.nav__list--primary {
+    padding: 0;
+}
+
+.nav__link--button {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.2em 1.2em;
+}
+
+
+
 
 .logo {
     height: 30px;
 }
 
+
+/*---------------Hero section-----------------------*/
 
 .hero {
     padding: 100px 0;
@@ -147,7 +172,6 @@ header {
     margin-top: 2em;
 }
 
-
 .hero p {
     margin-bottom: 3em;
 }
@@ -156,6 +180,21 @@ header {
     margin-top: 3em;
 }
 
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: #23424A;
+    font-weight: 900;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75; 
+}
 
 .sidebar {
     padding: 1em;
@@ -169,7 +208,14 @@ header {
 
 @media (min-width: 800px) {
 
-    
+    /*Common*/
+    .row {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    /*Nav*/
     .nav-toggle {
         display: none;
     }
@@ -180,12 +226,7 @@ header {
         height: auto;
     }
 
-    .row {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
+    /*Hero*/
     .hero__text {
         width: 62%;
     }
@@ -203,6 +244,5 @@ header {
     .sidebar {
         width: 32%;
     }
-    
     
 }
