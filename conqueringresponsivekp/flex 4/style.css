@@ -24,19 +24,40 @@ p {
     color: black;
 }
 
-.layout {
-    width: 90%;
-    margin: 0 auto;
+.column {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.layout > h1 {
+.layout {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.column > h1 {
     color: #824936;
     font-size: 1.9rem;
     text-align: center;
 }
+
+.center {
+    padding: 2rem;
+}
+
+.center > h1 {
+    color: #824936;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1em;
+    gap: 1em;
+}
+
 
 
 
@@ -162,13 +183,7 @@ img {
     max-width: 100%;
 }
 
-.row {
-    display: flex;
-    width: 85%;
-    margin: 0 auto;
-    justify-content: space-between;
-    margin-top: 2em;
-}
+
 
 .colone {
     width: 60%;
