@@ -19,7 +19,6 @@ p {
 .container {
     color: white;
     padding: 4rem 0;
-    margin: 0 auto;
     background-color: #F3EED9;
     color: black;
 }
@@ -42,7 +41,7 @@ p {
 }
 
 .center {
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 .center > h1 {
@@ -58,145 +57,46 @@ p {
     gap: 1em;
 }
 
-
-
-
-
-/*---------------------------------------------------------- */
-.navbar {
-    background-color: #136C72;
-    align-items: center;
+.pic-sec {
+    color: white;
+    padding: 3rem 0;
 }
 
-.navcontainer {
+.pic-sec1 {
+    background-color: black;
+}
+
+.pic-row {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
     margin: 0 auto;
-    padding: 2em 0;
-    gap: 0.2em;
-
+    gap: 1em;
 }
 
-.img-container {
+.pic-col {
     display: flex;
-    align-items: start;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.logo-container {
-    width: 10%;
+.pic-col > h1 {
+    color: #F3EED9;
+    margin-bottom: 0.3em;
 }
 
-.navlist {
-    display: flex;
-    gap: 0.2em;
-    align-items: center;
-
-    padding: 0;
-    margin:0;
-
-    color: white;
-    list-style: none;
+.pic-child {
+    width: 100%;
 }
 
-.navlist > img {
-    min-width: 25px;
-}
-
-.navitem {
-    padding: 0;
-    transition: background-color 0.4s ease-in-out, color 0.3s;
-}
-
-.navitem:hover {
-    color: #136C72;
-    background-color: white;
-    cursor: pointer;
-}
-
-.navlistend {
-    width: 40%;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
-
-.content {
-    max-width: 600px;
-}
-
-button {
-    background-color: #38CFD9;
-    border-radius: 5rem;
-    padding: 0.8em 2em;
-    border: 0;
-    transition: background-color .5s  ease-in-out, color .3s ease-in-out .1s;
-}
-
-button:hover {
-    cursor: pointer;
-    background-color: brown;
-    color: white;
-}
-
-h1 {
-    font-size: 1.6rem;
-    margin: 0;
-}
-
-@media only screen and (min-width: 600px) {
-    h1 {
-      font-size: 2.5rem;
-    }
-    p {
-        font-size: 1.5rem;
-    }
-    button {
-        font-size: 1.15rem;
-    }
-    .row {
-        width: 85%;
-    }
-    .navcontainer {
-    }
-    .navlistcenter {
-        flex-grow: 1;
-        justify-content: center;
-    }
-    .navlist {
-        gap: 1em;
-        font-size: 1.5rem;
-    }
-    .navitem {
-        padding: 0.5em;
-    }
-    .navlist > img{
-        max-width: 60px;
-    }
+.pic-sec2 {
+    background-color: #824936;
 }
 
 img {
     max-width: 100%;
 }
 
-
-
-.colone {
-    width: 60%;
-}
-
-.coltwo {
-    width: 33%;
-    background-color: #136C72;
-    color: white;
-    padding: 1em;
-    text-align: center;
-}
-
 .img-container {
-    width: 33%;
+    display: flex;
+    justify-items: flex-end;
 }
+/*---------------------------------------------------------- */
