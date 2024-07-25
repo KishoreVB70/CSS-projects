@@ -20,6 +20,11 @@ p, h1 {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    gap: 1em;
+}
+
 /* Main */
 
 .container {
@@ -41,11 +46,8 @@ p, h1 {
     padding: 4em 0;
 }
 
-.row {
-    display: flex;
-    margin: 0 auto;
+.center > .row {
     margin-top: 1em;
-    gap: 1em;
 }
 
 /*-------- Picture Section --------- */
@@ -61,12 +63,6 @@ p, h1 {
 
 .pic-sec2 {
     background-color: #824936;
-}
-
-.pic-row {
-    display: flex;
-    margin: 0 auto;
-    gap: 1em;
 }
 
 .pic-child {
