@@ -7,6 +7,41 @@ body {
     padding: 0;
 }
 
+
+p, h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.container {
+    color: white;
+    padding: 4rem 0;
+    margin: 0 auto;
+    background-color: #F3EED9;
+    color: black;
+}
+
+.layout {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout > h1 {
+    color: #824936;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+
+
+
+/*---------------------------------------------------------- */
 .navbar {
     background-color: #136C72;
     align-items: center;
@@ -67,12 +102,7 @@ a {
     color: inherit;
 }
 
-.container {
-    color: white;
-    padding: 1rem 0;
-    margin: 0 auto;
-    background-color: #23424A;
-}
+
 
 .content {
     max-width: 600px;
