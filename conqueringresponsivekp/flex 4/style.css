@@ -9,7 +9,11 @@ body {
 
 
 p, h1 {
-    margin: 0;
+    margin-top: 0;
+}
+
+img {
+    max-width: 150px;
 }
 
 /* --------------------------- Layouts ------------------------------------------ */
@@ -18,11 +22,6 @@ p, h1 {
 .layout {
     width: 90%;
     margin: 0 auto;
-}
-
-.row {
-    display: flex;
-    gap: 1em;
 }
 
 .column {
@@ -55,7 +54,7 @@ p, h1 {
 
 .pic-sec {
     color: white;
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 
 .pic-sec1 {
@@ -66,19 +65,7 @@ p, h1 {
     background-color: #824936;
 }
 
-.pic-child {
-    width: 100%;
-}
 
-.img-container {
-    display: flex;
-}
-
-img {
-    max-width: 100%;
-    margin: 0 auto;
-    align-self: center;
-}
 
 /* --------------------Typography ---------------------------- */
 
@@ -125,6 +112,31 @@ h1 {
 
     p {
         font-size: 1.2rem;
+    }
+
+    .row {
+        display: flex;
+        gap: 1em;
+    }
+
+    .img-container {
+        display: flex;
+        max-width: 400px;
+    }
+    
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+        align-self: center;
+    }
+
+    .pic-child {
+        width: 50%;
+    }
+
+    .pic-sec {
+        color: white;
+        padding: 3rem 0;
     }
     
 }
