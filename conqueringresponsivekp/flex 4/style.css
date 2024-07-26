@@ -103,6 +103,10 @@ h1 {
 
 /* -------------------- Queries ------------------------*/
 @media only screen and (min-width: 600px) {
+
+    .flex-child {
+        width: 100%;
+    }
     h1 {
         font-size: 2.5rem;
     }
