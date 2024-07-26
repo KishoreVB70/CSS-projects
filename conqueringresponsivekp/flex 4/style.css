@@ -122,20 +122,17 @@ h1 {
     .row {
         display: flex;
         justify-content: center;
-
         gap: 1em;
-    }
-
-    .center-row {
     }
 
     .img-container {
         display: flex;
-        max-width: 400px;
     }
     
     img {
+        width: 100%;
         max-width: 100%;
+        max-width: 380px;
         margin: 0 auto;
         align-self: center;
     }
