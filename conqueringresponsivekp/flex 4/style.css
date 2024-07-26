@@ -46,7 +46,11 @@ img {
 /* Center */
 
 .center {
-    padding: 4em 0;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
 }
 
 .center > .row {
@@ -125,6 +129,11 @@ h1 {
         font-size: 1.2rem;
     }
 
+    /* Layouts */
+
+    .center {
+        min-height: 30vh;
+    }
 
     .flex-child-para {
         width: 100%;
