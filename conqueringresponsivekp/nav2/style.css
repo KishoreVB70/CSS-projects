@@ -39,6 +39,7 @@ a {
     margin: 0 auto;
     /* added for nav-toggle positioning */
     position: relative;
+    text-align: center;
 }
 
 /*-------------Typography-----------------*/
