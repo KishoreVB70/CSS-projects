@@ -120,6 +120,7 @@ header {
     visibility: hidden;
     height: 0;
     position: absolute;
+    text-transform: uppercase;
 }
 
 .nav--visible {
