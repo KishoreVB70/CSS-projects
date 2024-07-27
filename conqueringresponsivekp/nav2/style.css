@@ -132,15 +132,16 @@ header {
     margin: 1em 0;
 }
 
+.nav__list--primary {
+    padding: 0;
+}
+
+
 .nav__list--secondary {
     display: flex;
     justify-content: space-between;
     padding: 0;
     margin: 0;
-}
-
-.nav__list--primary {
-    padding: 0;
 }
 
 .nav__link--button {
@@ -149,9 +150,6 @@ header {
     padding: 0.2em 1em;
 }
 
-
-
-
 .logo {
     height: 30px;
 }
@@ -159,9 +157,11 @@ header {
 @media (min-width: 800px) {
 
     /*Common*/
+    .container {
+        width: 85%;
+    }
     .row {
         display: flex;
-        align-items: center;
         gap: 1em;
     }
 
@@ -170,36 +170,39 @@ header {
         display: none;
     }
 
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .nav {
         visibility: visible;
         display: flex;
         height: auto;
         position: relative;
         justify-content: space-between;
-        width: 80%;
-
+        flex-grow: 1;
+        gap: 1em;
     }
 
     .nav__list {
         display: flex;
         gap: 2em;
-
-    }
-
-    .logo {
-        width: 5%;
     }
 
     .nav__list--primary {
         gap: 2em;
+        flex-grow: 1;
         justify-content: center;
     }
 
     .nav__list--secondary {
-        width: 50%;
         padding: 0;
+        gap: 1em;
         justify-content: flex-end;
-        gap: 1em
+        align-items: center;
+        
     }
 
     img {
