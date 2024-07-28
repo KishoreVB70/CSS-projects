@@ -22,15 +22,7 @@ a {
     color: white;  
 }
 
-/*-----------Common-------------------------*/
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    /* added for nav-toggle positioning */
-    position: relative;
-    text-align: center;
-}
 
 /*-------------Typography-----------------*/
 h1 {
@@ -45,6 +37,17 @@ h1 {
 
 
 /*-----------Navigation-------------------*/
+/*-----------Common-------------------------*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* added for nav-toggle positioning */
+    position: relative;
+    text-align: center;
+}
+
+
 header {
     background: #136c72;
     padding: 1em 0;
