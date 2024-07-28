@@ -148,7 +148,7 @@ header {
 /* ------- Media ------------ */
 @media (min-width: 800px) {
 
-    /*Common*/
+    /*----------Common--------------*/
     .container {
         width: 85%;
     }
@@ -157,7 +157,7 @@ header {
         gap: 1em;
     }
 
-    /*Nav*/
+    /*----------Nav------------*/
     .nav-toggle {
         display: none;
     }
@@ -201,9 +201,7 @@ header {
         min-width: 50px;
     }
 
-
-
-    /*Hero*/
+    /*-----------Hero--------------*/
     .hero__text {
         width: 62%;
     }
