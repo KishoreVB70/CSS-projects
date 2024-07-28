@@ -112,10 +112,7 @@ header {
     transform: translateY(3px);
 }
 
-/* made changes here from video
-   to make it more accessible.
-   
-   Works the same :) */
+
 .nav {
     visibility: hidden;
     height: 0;
