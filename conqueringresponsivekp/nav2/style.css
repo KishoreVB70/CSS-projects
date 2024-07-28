@@ -106,7 +106,6 @@ header {
     transform: translateY(3px);
 }
 
-
 .nav {
     visibility: hidden;
     height: 0;
@@ -146,6 +145,7 @@ header {
     height: 30px;
 }
 
+/* ------- Media ------------ */
 @media (min-width: 800px) {
 
     /*Common*/
