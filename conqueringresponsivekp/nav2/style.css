@@ -37,8 +37,8 @@ h1 {
 
 
 /*-----------Navigation-------------------*/
-/*-----------Common-------------------------*/
 
+/*---Common---*/
 .container {
     width: 80%;
     margin: 0 auto;
@@ -47,6 +47,7 @@ h1 {
     text-align: center;
 }
 
+/*--Nav--*/
 
 header {
     background: #136c72;
